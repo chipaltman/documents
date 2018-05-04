@@ -12,7 +12,6 @@
 
 ### clarify jobs
 * link to tracking
-* 
 
 # personal blog?
 * seek hosting
