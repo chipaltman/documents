@@ -6,3 +6,4 @@ I've decided to post my to-do list here in public because I figure you won't min
 * annular button on Elecom M-XT3DR trackball
 	* waiting for a driver patch
 * enable compose key
+* use **mv** to sort files by extension
