@@ -1,0 +1,17 @@
+ifconfig
+ssh [optional USERNAME] 192.168 ...
+# CTRL + u *Deletes whole line of text (in lieu of backspacing)*
+pkill kate
+sudo nano /etc/ssh/sshd.config
+PermitRootLogin no
+AllowUsers altman@192.168 ...
+DenyUsers
+AllowGroups
+DenyGroups
+sudo service ssh restart
+exit
+sudo nano /etc/hosts
+192.168 ... [TAB] satellite.tzd
+# *.tzd is a domain that "only exists on quids network"
+# satellite.local is fine
+# be sure to enable a firewall "gufw"

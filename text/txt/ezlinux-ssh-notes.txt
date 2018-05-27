@@ -1,0 +1,17 @@
+sudo -S openssh-server
+ssh 192.168.0.13
+scp test.txt 192.168.0.14:~/Desktop/test.txt
+logout
+ssh -X 192.168.0.13
+htop
+kate
+bleachbit
+firefox
+# is slow
+dophin
+# can drag and drop files from remote machine
+# is not bidirectional by default
+exit
+arp -a
+arp-scan --localnet
+ifconfig
